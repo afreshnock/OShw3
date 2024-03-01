@@ -28,13 +28,13 @@ The CXX compiler identification is GNU, found in "/homes/afreshnock/hw3/build/CM
 Determining if the C compiler works passed with the following output:
 Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_bcba6/fast && /usr/bin/gmake -f CMakeFiles/cmTC_bcba6.dir/build.make CMakeFiles/cmTC_bcba6.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_3964f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_3964f.dir/build.make CMakeFiles/cmTC_3964f.dir/build
 gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bcba6.dir/testCCompiler.c.o
-/opt/software/software/GCCcore/9.3.0/bin/cc    -o CMakeFiles/cmTC_bcba6.dir/testCCompiler.c.o   -c /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_bcba6
-/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcba6.dir/link.txt --verbose=1
-/opt/software/software/GCCcore/9.3.0/bin/cc      -rdynamic CMakeFiles/cmTC_bcba6.dir/testCCompiler.c.o  -o cmTC_bcba6 
+Building C object CMakeFiles/cmTC_3964f.dir/testCCompiler.c.o
+/opt/software/software/GCCcore/9.3.0/bin/cc    -o CMakeFiles/cmTC_3964f.dir/testCCompiler.c.o   -c /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3964f
+/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3964f.dir/link.txt --verbose=1
+/opt/software/software/GCCcore/9.3.0/bin/cc      -rdynamic CMakeFiles/cmTC_3964f.dir/testCCompiler.c.o  -o cmTC_3964f 
 gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 
 
@@ -42,18 +42,18 @@ gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_1e114/fast && /usr/bin/gmake -f CMakeFiles/cmTC_1e114.dir/build.make CMakeFiles/cmTC_1e114.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_4ed9a/fast && /usr/bin/gmake -f CMakeFiles/cmTC_4ed9a.dir/build.make CMakeFiles/cmTC_4ed9a.dir/build
 gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o
-/opt/software/software/GCCcore/9.3.0/bin/cc   -v -o CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o   -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o
+/opt/software/software/GCCcore/9.3.0/bin/cc   -v -o CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o   -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/cc
 Target: x86_64-pc-linux-gnu
 Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/opt/software/software/GCCcore/9.3.0 --with-local-prefix=/opt/software/software/GCCcore/9.3.0 --enable-bootstrap --with-isl=/tmp/easybuild/GCCcore/9.3.0/system-system/gcc-9.3.0/stage2_stuff
 Thread model: posix
 gcc version 9.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc4fsryv.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclvamMl.s
 GNU C17 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -88,15 +88,15 @@ GNU C17 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: c4d51f72977bc31bd6d0bc6bb2f8405a
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o /tmp/cc4fsryv.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o /tmp/cclvamMl.s
 GNU assembler version 2.34 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.34
 COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_1e114
-/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e114.dir/link.txt --verbose=1
-/opt/software/software/GCCcore/9.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o  -o cmTC_1e114 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_4ed9a
+/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed9a.dir/link.txt --verbose=1
+/opt/software/software/GCCcore/9.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o  -o cmTC_4ed9a 
 Using built-in specs.
 COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/cc
 COLLECT_LTO_WRAPPER=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
@@ -106,9 +106,9 @@ Thread model: posix
 gcc version 9.3.0 (GCC) 
 COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e114' '-mtune=generic' '-march=x86-64'
- /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWmvu0B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1e114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e114' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ed9a' '-mtune=generic' '-march=x86-64'
+ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOfTI4q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4ed9a /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ed9a' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 
 
@@ -166,18 +166,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_1e114/fast && /usr/bin/gmake -f CMakeFiles/cmTC_1e114.dir/build.make CMakeFiles/cmTC_1e114.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_4ed9a/fast && /usr/bin/gmake -f CMakeFiles/cmTC_4ed9a.dir/build.make CMakeFiles/cmTC_4ed9a.dir/build]
   ignore line: [gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/cc   -v -o CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o   -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/cc   -v -o CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o   -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/cc]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/opt/software/software/GCCcore/9.3.0 --with-local-prefix=/opt/software/software/GCCcore/9.3.0 --enable-bootstrap --with-isl=/tmp/easybuild/GCCcore/9.3.0/system-system/gcc-9.3.0/stage2_stuff]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc4fsryv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1 -quiet -v /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o -version -o /tmp/cclvamMl.s]
   ignore line: [GNU C17 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -212,15 +212,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: c4d51f72977bc31bd6d0bc6bb2f8405a]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o /tmp/cc4fsryv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o /tmp/cclvamMl.s]
   ignore line: [GNU assembler version 2.34 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.34]
   ignore line: [COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_1e114]
-  ignore line: [/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e114.dir/link.txt --verbose=1]
-  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o  -o cmTC_1e114 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_4ed9a]
+  ignore line: [/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed9a.dir/link.txt --verbose=1]
+  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/cc     -v -rdynamic CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o  -o cmTC_4ed9a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
@@ -230,13 +230,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1e114' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWmvu0B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1e114 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ed9a' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOfTI4q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4ed9a /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWmvu0B.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOfTI4q.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -249,7 +249,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1e114] ==> ignore
+    arg [cmTC_4ed9a] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
@@ -275,7 +275,7 @@ Parsed C implicit link information from above output:
     arg [-L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib] ==> dir [/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib]
     arg [-L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib] ==> dir [/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib]
     arg [-L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
-    arg [CMakeFiles/cmTC_1e114.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4ed9a.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -319,13 +319,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_f9408/fast && /usr/bin/gmake -f CMakeFiles/cmTC_f9408.dir/build.make CMakeFiles/cmTC_f9408.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_ccf58/fast && /usr/bin/gmake -f CMakeFiles/cmTC_ccf58.dir/build.make CMakeFiles/cmTC_ccf58.dir/build
 gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9408.dir/testCXXCompiler.cxx.o
-/opt/software/software/GCCcore/9.3.0/bin/c++     -o CMakeFiles/cmTC_f9408.dir/testCXXCompiler.cxx.o -c /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f9408
-/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9408.dir/link.txt --verbose=1
-/opt/software/software/GCCcore/9.3.0/bin/c++       -rdynamic CMakeFiles/cmTC_f9408.dir/testCXXCompiler.cxx.o  -o cmTC_f9408 
+Building CXX object CMakeFiles/cmTC_ccf58.dir/testCXXCompiler.cxx.o
+/opt/software/software/GCCcore/9.3.0/bin/c++     -o CMakeFiles/cmTC_ccf58.dir/testCXXCompiler.cxx.o -c /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ccf58
+/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf58.dir/link.txt --verbose=1
+/opt/software/software/GCCcore/9.3.0/bin/c++       -rdynamic CMakeFiles/cmTC_ccf58.dir/testCXXCompiler.cxx.o  -o cmTC_ccf58 
 gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 
 
@@ -333,18 +333,18 @@ gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_7aa4f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_7aa4f.dir/build.make CMakeFiles/cmTC_7aa4f.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_8c734/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8c734.dir/build.make CMakeFiles/cmTC_8c734.dir/build
 gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o
-/opt/software/software/GCCcore/9.3.0/bin/c++    -v -o CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o
+/opt/software/software/GCCcore/9.3.0/bin/c++    -v -o CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/c++
 Target: x86_64-pc-linux-gnu
 Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/opt/software/software/GCCcore/9.3.0 --with-local-prefix=/opt/software/software/GCCcore/9.3.0 --enable-bootstrap --with-isl=/tmp/easybuild/GCCcore/9.3.0/system-system/gcc-9.3.0/stage2_stuff
 Thread model: posix
 gcc version 9.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1CIzYT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccAmkIYQ.s
 GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -382,15 +382,15 @@ GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 53c232575a99550e65013fdab0371664
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1CIzYT.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAmkIYQ.s
 GNU assembler version 2.34 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.34
 COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_7aa4f
-/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa4f.dir/link.txt --verbose=1
-/opt/software/software/GCCcore/9.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7aa4f 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8c734
+/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c734.dir/link.txt --verbose=1
+/opt/software/software/GCCcore/9.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8c734 
 Using built-in specs.
 COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/c++
 COLLECT_LTO_WRAPPER=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
@@ -400,9 +400,9 @@ Thread model: posix
 gcc version 9.3.0 (GCC) 
 COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7aa4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu5gm6Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7aa4f /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7aa4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8c734' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHHIutW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8c734 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8c734' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp'
 
 
@@ -466,18 +466,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_7aa4f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_7aa4f.dir/build.make CMakeFiles/cmTC_7aa4f.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_8c734/fast && /usr/bin/gmake -f CMakeFiles/cmTC_8c734.dir/build.make CMakeFiles/cmTC_8c734.dir/build]
   ignore line: [gmake[1]: Entering directory `/homes/afreshnock/hw3/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/c++    -v -o CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/c++    -v -o CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/c++]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold=default --enable-ld --with-plugin-ld=ld.gold --prefix=/opt/software/software/GCCcore/9.3.0 --with-local-prefix=/opt/software/software/GCCcore/9.3.0 --enable-bootstrap --with-isl=/tmp/easybuild/GCCcore/9.3.0/system-system/gcc-9.3.0/stage2_stuff]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1CIzYT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /opt/software/software/CMake/3.16.4-GCCcore-9.3.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccAmkIYQ.s]
   ignore line: [GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -515,15 +515,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 53c232575a99550e65013fdab0371664]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1CIzYT.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAmkIYQ.s]
   ignore line: [GNU assembler version 2.34 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.34]
   ignore line: [COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_7aa4f]
-  ignore line: [/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa4f.dir/link.txt --verbose=1]
-  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7aa4f ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8c734]
+  ignore line: [/opt/software/software/CMake/3.16.4-GCCcore-9.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c734.dir/link.txt --verbose=1]
+  ignore line: [/opt/software/software/GCCcore/9.3.0/bin/c++      -v -rdynamic CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8c734 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/software/software/GCCcore/9.3.0/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
@@ -533,13 +533,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib/:/opt/software/software/FFTW/3.3.8-gompi-2020a/lib/:/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib/:/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib/:/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib/:/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib/:/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib/:/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib/:/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib/:/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib/:/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib/:/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib/:/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib/:/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib/:/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib/:/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/:/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7aa4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu5gm6Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7aa4f /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8c734' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHHIutW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8c734 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib/../lib64 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/software/software/ScaLAPACK/2.1.0-gompi-2020a/lib -L/opt/software/software/FFTW/3.3.8-gompi-2020a/lib -L/opt/software/software/OpenBLAS/0.3.9-GCC-9.3.0/lib -L/opt/software/software/OpenMPI/4.0.3-GCC-9.3.0/lib -L/opt/software/software/UCX/1.8.0-GCCcore-9.3.0/lib -L/opt/software/software/hwloc/2.2.0-GCCcore-9.3.0/lib -L/opt/software/software/libpciaccess/0.16-GCCcore-9.3.0/lib -L/opt/software/software/libxml2/2.9.10-GCCcore-9.3.0/lib -L/opt/software/software/XZ/5.2.5-GCCcore-9.3.0/lib -L/opt/software/software/numactl/2.0.13-GCCcore-9.3.0/lib -L/opt/software/software/binutils/2.34-GCCcore-9.3.0/lib -L/opt/software/software/cURL/7.69.1-GCCcore-9.3.0/lib -L/opt/software/software/bzip2/1.0.8-GCCcore-9.3.0/lib -L/opt/software/software/zlib/1.2.11-GCCcore-9.3.0/lib -L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib -L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib -L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/software/software/GCCcore/9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccu5gm6Y.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHHIutW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -552,7 +552,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7aa4f] ==> ignore
+    arg [cmTC_8c734] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
@@ -578,7 +578,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib] ==> dir [/opt/software/software/ncurses/6.2-GCCcore-9.3.0/lib]
     arg [-L/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib] ==> dir [/opt/software/software/googletest/1.10.0-GCCcore-9.3.0/lib]
     arg [-L/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/opt/software/software/GCCcore/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
-    arg [CMakeFiles/cmTC_7aa4f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8c734.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
