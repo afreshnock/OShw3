@@ -8,6 +8,11 @@
 // remove it before you submit. Just allows things to compile initially.
 #define UNUSED(x) (void)(x)
 
+struct block_store{
+    uint8_t data [512]; // pointer to start of block array
+    bitmap_t * blockMap; //bitmap to store block meta data
+};
+
 block_store_t *block_store_create()
 {
     return NULL;
