@@ -39,9 +39,16 @@ void block_store_destroy(block_store_t *const bs)
 
 size_t block_store_allocate(block_store_t *const bs)
 {
-    //if(bs==NULL) return SIZE_MAX;
-    UNUSED(bs);
-    return 0;
+    if(bs==NULL) return SIZE_MAX;
+    //Find index of first free block in block store
+    size_t index = bitmap_ffz(bs->blockMap);
+
+    //No free block is available
+    if(index == SIZE_MAX) return SIZE_MAX;
+
+    //Mark block as allocated in bitmap
+    bitmap_set(bs->blockMap, index);
+    return index;
 }
 
 bool block_store_request(block_store_t *const bs, const size_t block_id)
