@@ -22,9 +22,9 @@ block_store_t *block_store_create()
     result->blockMap = bitmap_overlay(BITMAP_SIZE_BITS, result->data+BITMAP_START_BLOCK);
 
     // Marks the blocks used by bitmaps
-    int bytes = bitmap_get_bytes(result->blockMap);
-    for(int i=0; i<bytes; i++){
-        if(!block_store_request(result, i+BITMAP_START_BLOCK)) return NULL;
+    //int bytes = bitmap_get_bytes(result->blockMap);
+    for(size_t i = 0; i < BITMAP_NUM_BLOCKS; i++){
+        if(!block_store_request(result, BITMAP_START_BLOCK + i)) return NULL;
     }
 
     return result;
@@ -33,6 +33,7 @@ block_store_t *block_store_create()
 void block_store_destroy(block_store_t *const bs)
 {
     if(bs==NULL) return;
+    // Frees memory allocated to bitmap and block store
     bitmap_destroy(bs->blockMap);
     free(bs);
 }
@@ -40,33 +41,40 @@ void block_store_destroy(block_store_t *const bs)
 size_t block_store_allocate(block_store_t *const bs)
 {
     if(bs==NULL) return SIZE_MAX;
-    //Find index of first free block in block store
+    // Find index of first free block in block store
     size_t index = bitmap_ffz(bs->blockMap);
 
-    //No free block is available
+    // No free block is available
     if(index == SIZE_MAX) return SIZE_MAX;
 
-    //Mark block as allocated in bitmap
+    // Mark block as allocated in bitmap
     bitmap_set(bs->blockMap, index);
     return index;
 }
 
 bool block_store_request(block_store_t *const bs, const size_t block_id)
 {
+    // Check if pointer to block store is not NULL and block_id is within range
+    if(bs==NULL || block_id > BLOCK_STORE_NUM_BLOCKS) return false;
     bitmap_t* bitmap = bs->blockMap;
 
+    // Checks if block is marked as allocated
     if(bitmap_test(bitmap, block_id)){
         return false;
     }
 
+    // Marks block as allocated
     bitmap_set(bitmap, block_id);
     return true;
 }
 
 void block_store_release(block_store_t *const bs, const size_t block_id)
 {
-    UNUSED(bs);
-    UNUSED(block_id);
+    // Check if pointer to block store is not NULL and block_id is within range
+    if(bs==NULL || block_id > BLOCK_STORE_NUM_BLOCKS) return;
+
+    // Reset bit corresponding to block in bitmap
+    bitmap_reset(bs->blockMap, block_id);
 }
 
 size_t block_store_get_used_blocks(const block_store_t *const bs)
