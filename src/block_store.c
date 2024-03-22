@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include "bitmap.h"
 #include "block_store.h"
+#include <string.h>
 // include more if you need
 
 // You might find this handy.  I put it around unused parameters, but you should
@@ -79,14 +80,18 @@ void block_store_release(block_store_t *const bs, const size_t block_id)
 
 size_t block_store_get_used_blocks(const block_store_t *const bs)
 {
-    UNUSED(bs);
-    return 0;
+    if(bs==NULL) return SIZE_MAX;
+
+    //Returns number of blocks currently allocated in block store
+    return bitmap_total_set(bs->blockMap);
 }
 
 size_t block_store_get_free_blocks(const block_store_t *const bs)
 {
-    UNUSED(bs);
-    return 0;
+    if(bs==NULL) return SIZE_MAX;
+
+    //Returns difference between total number of blocks and number of used blocks
+    return BLOCK_STORE_NUM_BLOCKS - block_store_get_used_blocks(bs);
 }
 
 size_t block_store_get_total_blocks()
@@ -96,10 +101,13 @@ size_t block_store_get_total_blocks()
 
 size_t block_store_read(const block_store_t *const bs, const size_t block_id, void *buffer)
 {
-    UNUSED(bs);
-    UNUSED(block_id);
-    UNUSED(buffer);
-    return 0;
+    if(bs==NULL || buffer==NULL || block_id > BLOCK_STORE_NUM_BLOCKS) return 0;
+
+    //Reads contents of block to a buffer
+    memcpy(buffer, bs->data+block_id, BLOCK_SIZE_BYTES);
+
+    //Returns number of bytes successfully read
+    return BLOCK_SIZE_BYTES;
 }
 
 size_t block_store_write(block_store_t *const bs, const size_t block_id, const void *buffer)
